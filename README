@@ -1,0 +1,12 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1237
+
+Syntax file for M$ SQL Server 2000 Transact-SQL
+
+I added all reserved words, system functions and stored procedures.
+
+Notes:
+- All types, statements, and operators are colored as Keyword.
+- All keywords must be UPPER_CASED.
+- @local_variables (lower_cased) are colored as Special
+- User-defined types in the form of "Some_User_Defined_Type" are colored as Type. (you must append the ending "_Type")
+- @@SYSTEM_VARIABLES are colored as PreProc. Must be UPPER_CASED too.
